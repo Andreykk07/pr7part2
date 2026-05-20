@@ -1,0 +1,17 @@
+const DISCOUNT_RATES = {
+    SUMMER: 0.10,
+    VIP: 0.25,
+    LOYALTY: 0.15,
+    VOLUME_THRESHOLD: 1000,
+    VOLUME_RATE: 0.10
+};
+
+const SHIPPING_RATES = {
+    TIER_1_MAX_WEIGHT: 5,
+    TIER_1_COST: 5,
+    TIER_2_MAX_WEIGHT: 10,
+    TIER_2_COST: 10,
+    TIER_3_COST: 20
+};
+
+module.exports = { DISCOUNT_RATES, SHIPPING_RATES };
